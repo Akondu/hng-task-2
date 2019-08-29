@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://res.cloudinary.com/djzzotzfq/image/upload/v1567035935/17580_tzq3bv.jpg");
+    filter: alpha(opacity=50);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#bar {
+    background-color: rgb(18, 18, 43);
+    color: white;
+    font-family: Century Gothic;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+  }
+  
+  a:hover {
+    color: rgb(72, 72, 73);
+  }
+  
+  a:active {
+    color: rgb(52, 52, 54);
+  }
+
+#picture { 
+    background-image: url("https://res.cloudinary.com/djzzotzfq/image/upload/v1567049508/Picture6_fqmwhe.png");
+    background-attachment: fixed;
+    color: rgb(207, 181, 59);
+    font-weight: bold;
+    font-size: 200%;
+    font-family: century gothic;
+}
+
+h1 {
+    color: rgb(207, 181, 59);
+    font-family: Century Gothic;
+}
+
+h2 {
+    background-color: rgb(18, 18, 43);
+    color: white;
+    font-family: Century Gothic;
+}
+h6 {
+    color: white;
+    font-family: Century Gothic;
+    text-align: center;
+}
+
+#Follow {
+    background-color: rgb(33, 33, 44);
+    color: white;
+    font-family: Century Gothic;  
+}
