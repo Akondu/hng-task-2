@@ -1,3 +1,7 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 body {
     background-image: url("https://res.cloudinary.com/djzzotzfq/image/upload/v1567035935/17580_tzq3bv.jpg");
     filter: alpha(opacity=50);
@@ -28,12 +32,14 @@ a:link {
   }
 
 #picture { 
-    background-image: url("https://res.cloudinary.com/djzzotzfq/image/upload/v1567049508/Picture6_fqmwhe.png");
+    background-image: url("https://res.cloudinary.com/djzzotzfq/image/upload/v1567611161/nordwood-themes-kRNZiGKtz48-unsplash_w1bkif.jpg");
     background-attachment: fixed;
     color: rgb(207, 181, 59);
     font-weight: bold;
     font-size: 200%;
-    font-family: century gothic;
+    height: 90vh;
+    background-size: cover;
+    font-family: helvetica;
 }
 
 h1 {
@@ -42,18 +48,137 @@ h1 {
 }
 
 h2 {
-    background-color: rgb(18, 18, 43);
-    color: white;
-    font-family: Century Gothic;
+    color: rgb(18, 18, 43);
+    font-family: 'Montserrat', sans-serif;
 }
+
+h4 {
+  margin: 45
+}
+h5 {
+  margin: 45
+}
+
 h6 {
-    color: white;
-    font-family: Century Gothic;
+    color: #5e5d5d;
+    font-family: Helvetica;
     text-align: center;
 }
 
-#Follow {
-    background-color: rgb(33, 33, 44);
-    color: white;
-    font-family: Century Gothic;  
+}
+#personal {
+  background-image: url("https://res.cloudinary.com/djzzotzfq/image/upload/v1567611114/jeshoots-com-pUAM5hPaCRI-unsplash_1_gpgmfg.jpg");
+    background-attachment: fixed;
+    color: rgb(207, 181, 59);
+    font-weight: bold;
+    font-size: 100%;
+    background-size: cover;
+    font-family: helvetica;
+}
+
+#education {
+  background-image: url("https://res.cloudinary.com/djzzotzfq/image/upload/v1567729575/sharon-mccutcheon-eMP4sYPJ9x0-unsplash_kivxdz.jpg");
+  background-attachment: fixed;
+  color: rgb(207, 181, 59);
+  font-weight: bold;
+  font-size: 100%;
+  background-size: cover;
+  height: 28vh;
+  background-position: right bottom
+  font-family: helvetica;
+}
+
+#Expertise {
+  background-image: url("https://res.cloudinary.com/djzzotzfq/image/upload/v1567611091/nordwood-themes-wt4gUtdv1-U-unsplash_hws1zk.jpg");
+  background-attachment: fixed;
+  color: rgb(207, 181, 59);
+  font-weight: bold;
+  font-size: 100%;
+  background-size: cover;
+  background-position: right bottom
+  font-family: helvetica;
+}
+
+#experience {
+  background-image: url("https://res.cloudinary.com/djzzotzfq/image/upload/v1567696710/marten-bjork-6dW3xyQvcYE-unsplash_joxv6k.jpg");
+  background-attachment: fixed;
+  color: rgb(207, 181, 59);
+  font-weight: bold;
+  font-size: 100%;
+  background-size: cover;
+  height: 155vh;
+  background-position: right bottom
+  font-family: helvetica;
+}
+
+.work text {
+  margin: 40
+}
+
+#references {
+  background-image: url("https://res.cloudinary.com/djzzotzfq/image/upload/v1567611091/nordwood-themes-wt4gUtdv1-U-unsplash_hws1zk.jpg");
+  background-attachment: fixed;
+  color: rgb(207, 181, 59);
+  font-weight: bold;
+  font-size: 100%;
+  background-size: cover;
+  height: 25vh;
+  font-family: helvetica;
+}
+
+.contact-me {
+  background-image: url("https://res.cloudinary.com/djzzotzfq/image/upload/v1567715390/nordwood-themes-q8U1YgBaRQk-unsplash_vxsdfo.jpg")
+  width: 360px;
+  padding: 0 0 0;
+  margin: auto
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
+.details input {
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.details button {
+  text-transform: uppercase;
+  outline: 0;
+  background: rgb(33,33,44);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.details button:hover, .details button:active {
+  background:  #474444;
+}
+
+.details .message {
+  margin: 15px 0 0;
+  color: black
+}
+
+.details .message a{
+  color: black
+}
+
+footer {
+	background-color: rgb(33, 33, 44);
+	padding: 30px;
+	color: #ffffff;
+	font-size: 18px;
+  text-align: center;
 }
